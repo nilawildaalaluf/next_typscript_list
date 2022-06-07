@@ -30,7 +30,7 @@ const BulkUploadOrders = () => {
                 sx={{ width: "200px" }}
               >
                 <MenuItem key="all" value="all">
-                  Semua Category
+                  Pilih Category
                 </MenuItem>
                 {filterKeys.map((v) => {
                   const dataSearch = CATEGORY[v];
