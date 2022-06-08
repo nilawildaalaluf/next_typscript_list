@@ -37,7 +37,7 @@ const Orders = (filter: any) => {
             totalPages={dataPagination?.total_pages}
             page={page}
             setPage={setPage}
-            isLoading={isLoading}
+            isLoading={isLoadingCategory}
             cells={cells}
             totalRecord={dataPagination?.total_elements}
           />
