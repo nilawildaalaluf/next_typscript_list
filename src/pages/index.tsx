@@ -11,7 +11,7 @@ import {
 } from "./styles";
 import Home from "./home";
 
-const BulkUploadOrders = () => {
+const Orders = () => {
   const [filter, setFilter] = useState<string>("all");
 
   const filterKeys = Object.keys(CATEGORY);
@@ -54,4 +54,4 @@ const BulkUploadOrders = () => {
   );
 };
 
-export default BulkUploadOrders;
+export default Orders;

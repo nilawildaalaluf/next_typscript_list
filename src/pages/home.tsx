@@ -8,7 +8,7 @@ import { getShopList, getShopListWithCategory } from "./queries";
 
 import { StyledCard } from "./styles";
 
-const BulkUploadOrders = (filter: any) => {
+const Orders = (filter: any) => {
   const [page, setPage] = useState<number>(1);
 
   const { data: historyData, isLoading } = useQuery(["GET_LIST"], async () => {
@@ -47,4 +47,4 @@ const BulkUploadOrders = (filter: any) => {
   );
 };
 
-export default BulkUploadOrders;
+export default Orders;
